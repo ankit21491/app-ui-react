@@ -1,0 +1,133 @@
+/* Styles for the custom table */
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #757575;
+  font-family: Arial, sans-serif;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for table header cells */
+.custom-table th {
+  background-color: #ffc107;
+  border: 1px solid #ffffff;
+  text-align: center;
+  padding: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Styles for table data cells */
+.custom-table td {
+  border: 1px solid #ffffff;
+  text-align: center;
+  padding: 8px;
+}
+
+/* Styles for the container of role group name and toggle icon */
+.roleGroupContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Styles for the role group name */
+.roleGroupName {
+  flex-grow: 1;
+  font-weight: bold;
+}
+
+/* Styles for subtotal rows in the table */
+.subTotalRow {
+  background-color: #ffcf33cd;
+  font-weight: bold;
+}
+
+/* Styles for grand total row in the table */
+.grandTotalRow {
+  background-color: #ffbf00;
+  font-weight: bold;
+}
+
+/* Styles for even-numbered rows */
+.even-row {
+  background-color: #ffecb3;
+}
+
+/* Styles for odd-numbered rows */
+.odd-row {
+  background-color: #ffffff;
+}
+
+/* Styles for centering content vertically and horizontally */
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styles for the multiselect container */
+.multiselect-container {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Styles for the row containing dropdowns */
+.dropdown-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styles for individual dropdown columns */
+.dropdown-column {
+  flex: 1;
+  margin-right: 10px;
+  width: 300px;
+}
+
+/* Styles for the container of date inputs */
+.date-container {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Styles for the row containing date inputs */
+.date-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styles for individual date input columns */
+.date-column {
+  flex: 1;
+  margin-right: 10px;
+  width: 250px;
+}
+
+/* Styles for date input fields */
+.date-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Styles for the generate button */
+.generate-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Styles for the generate button on hover */
+.generate-button:hover {
+  background-color: #000000;
+}
